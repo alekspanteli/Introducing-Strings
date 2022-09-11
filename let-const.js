@@ -1,18 +1,8 @@
-//Const value never changes
-// const score = 5;
-// score += 5;
-// console.log(score);
+// const msg = "I am a programmer";
+// const htmlSnippet = '<h1 class="test">I`m a programmer</h1>';
+// const msg = 'I\'m a programmer';
 
-
-// We can only reassign score value usings score
-// let score = 5;
-// score += 15;
-// score = 5;
-// console.log(score);
-
-
-// We can reassign score value using var again and varialbe name
-// var score = 5;
-// score += 15;
-// var score = 5;
-// console.log(score);
+//To write elements in multilines, we need to include escape backslash
+const multiline = "Hello world. \
+asdad";
+console.log(multiline);
